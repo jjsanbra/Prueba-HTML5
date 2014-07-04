@@ -6,20 +6,30 @@
 	<meta name="description" content="Sitio Web de prueba y tests"/>
 	<meta name="keywords" content="Sitio, Web, prueba, tests"/>
 	<meta name="author" content="Julio Jesús Sanquis Bravo"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 	<!-- My Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.css"/>
 	<link rel="stylesheet" href="css/styles.css"/>
-	<link rel="stylesheet" href="css/normalize.css"/>
+
+	<!-- My Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
-<main>
-	<header>
-		<figure>
-			<img src="" alt="">
-		</figure>
-		<h1>Prueba de Funcionamiento de HTML5, CSS3 y JS</h1>
-		<nav>
+<main class="container">
+	<div class="row">
+		<header ="col-md-6">
+			<figure>
+				<img src="" alt="">
+			</figure>
+			<h1>Prueba de Funcionamiento de HTML5, CSS3 y JS</h1>
+		</header>
+		<nav id="nav_main" class="nav nav-pills">
 			<ul>
 				<li><a href="#">enlace</a></li>
 				<li><a href="#">enlace</a></li>
@@ -27,47 +37,84 @@
 				<li><a href="#">enlace</a></li>
 			</ul>
 		</nav>
-	</header>
+	</div>
 	<aside>
 		<aside></aside>
 	</aside>
-	<section>
+	<section id="seccion_01">
 		<article id="articulo_01">
-			<h1></h1>
-			<h3></h3>
-			<p></p>
+			<h1>Artículo 01</h1>
+			<h3>Subtítulo de Artículo 01</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 		</article>
 		<article id="articulo_02">
-			<h1></h1>
-			<h3></h3>
-			<p></p>
+			<h1>Artículo 02</h1>
+			<h3>Subtítulo de Artículo 02</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 		</article>
 		<article id="articulo_03">
-			<h1></h1>
-			<h3></h3>
-			<p></p>
+			<h1>Artículo 03</h1>
+			<h3>Subtítulo de Artículo 03</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 		</article>
 		<article id="articulo_04">
-			<h1></h1>
-			<h3></h3>
-			<p></p>
+			<h1>Artículo 04</h1>
+			<h3>Subtítulo de Artículo 04</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 		</article>
 		<article id="articulo_05">
-			<h1></h1>
-			<h3></h3>
-			<p></p>
+			<h1>Artículo 05</h1>
+			<h3>Subtítulo de Artículo 05</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 		</article>
 		<article id="articulo_06">
-			<h1></h1>
-			<h3></h3>
-			<p></p>
+			<h1>Artículo 06</h1>
+			<h3>Subtítulo de Artículo 06</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 		</article>
 		<aside></aside>
 	</section>
 	<footer>
-		<p></p>
+		<nav>
+			<ul>
+				<li><a href="">enlace</a></li>
+				<li><a href="">enlace</a></li>
+				<li><a href="">enlace</a></li>
+				<li><a href="">enlace</a></li>
+			</ul>
+		</nav>
 	</footer>
 </main>
+
+<div class="container">
+	<div class="row">
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-8">.col-md-8</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-6">.col-md-6</div>
+	  <div class="col-md-6">.col-md-6</div>
+	</div>
+</div>
 	
 </body>
 </html>
